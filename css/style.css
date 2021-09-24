@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.promo-site{
+  width: 1440px;
+  height: 2726px;
+  background: #FFFFFF;
+}
+header{
+  border-top: 5px #FF7500  solid;
+  width: 1440px;
+}
+.header-img{
+  width: 227; 
+  height: 59.18;
+}
+.rectangle{
+  width: 1440px;
+  height: 550px;
+  
+}
+.rectangle1{
+  width: 1440px;
+  height: 488px;
+  background-color: #252420;
+}
+.rectangle-text{
+  width: 387px;
+  height: 328px;
+  float: left;
+}
+.rectangle-text h2{
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.rectangle-text p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.rectangle-text a{
+  width: 152px;
+  height: 39px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+.rectangle-img{
+  width: 510px;
+  height: 510px;
+  border-radius: 8px  ;
+}
+.features{
+  width: 1440px;
+  height: 936px;
+  background-color: #FFFFFF;
+}
+.features-header{
+  width: 435px;
+  height: 172px;
+}
+.features-header h2{
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 120%;
+  color: #000000;
+}
+.features-list{
+  width: 1100px;
+  height: 245px;
+}
+.features-list li{
+  width: 340px;
+  height: 245px;
+  
+}
+.features-list li h3{
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+.features-list li p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+.features-list li img{
+  width: 100px;
+  height: 100px;
+}
+.sale{
+  width: 1100px;
+  height: 504px;
+}
+.sale-box{
+  width: 1100px;
+  height: 419px;
+  background-color: #252420;
+}
+.sale-text{
+  width: 440px;
+  height: 291px;
+  float: left;
+}
+.sale-text h2{
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+.sale-text p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+}
+.sale-text p strong{
+  color: #FF7500;
+}
+.sale-text a{
+  width: 152px;
+  height: 39px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+footer{
+  width: 1440px;
+  height: 507px;
+}
+.footer-list{
+  width: 1100px;
+ 
+}
+.footer-list-logo{
+  width: 227; 
+  height: 59.18;
+}
+.footer-list-icon{
+  width: 24px;
+  height: 24px;
+}
+.footer-list2{
+  width: 1100px;
+  height: 229px;
+}
+.footer-list2 ul{
+  width: 224px;
+  
+}
+.footer-list2 li a{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
