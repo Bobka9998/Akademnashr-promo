@@ -4,8 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Akademnashr sayti</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <title>Akademnashr sayti</title>
 </head>
 <body>
   <div class="promo-site">
@@ -13,16 +16,24 @@
               <!-- site-header-content open  -->
           
               <a href="index.html"><img class="header-img" src="img/logo.svg" alt="logo" ></a>
-          <nav>
-            <ul>
-              <li> <a href="#">Bosh sahifa </a></li>
-              <li> <a href="#">Kitoblar </a></li>
-              <li> <a href="#">Aksiyalar</a></li>
-              <li> <a href="#">Kontaktlar</a></li>
-            </ul>
-          </nav>
-          
-          <a href="#">Ro`yxardan o`tish</a>
+
+              
+              <div class="header-list">
+
+                <nav class="header-list-nav">
+                  <ul class="header-list-nav-ul">
+                    <li> <a class="header-nav-list-link" href="#">Bosh sahifa </a></li>
+                    <hr class="line-hr">
+                    <li> <a class="header-nav-list-link" href="#">Kitoblar </a></li>
+                    <li> <a class="header-nav-list-link" href="#">Aksiyalar</a></li>
+                    <li> <a class="header-nav-list-link" href="#">Kontaktlar</a></li>
+                  </ul>
+                </nav>
+
+                <a class="site-header-link" href="#">Ro`yxardan o`tish</a>
+
+              </div>
+        
           <!-- site-header-content close  -->
     </header>
 
@@ -32,10 +43,11 @@
             <!--Rectangle open -->
             <div class="rectangle1">
               <div class="rectangle-text">
+                <hr class="line-hr">
                 <h2>Pythonda dasturlash asoslari</h2>
                 <p>Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir bo‘limi uchun maxsus video darslar yozilgan bo‘lib, ularga kitobda ko‘rsatilgan QR kod orqali o‘tish mumkin.</p>
-                <br><br>
-                <a href="#">Buyurtma berish</a>
+                
+                <a class="site-header-link" href="#">Buyurtma berish</a>
               </div>
                 
               <img class="restangle-img" src="img/python-book.png" alt="python-book" width="510" height="510" srcset="img/python-book.png 1x, img/python-book@2x.png 2x">
@@ -47,7 +59,7 @@
 
         <section class="features">
           <!--features-wrapper open-->
-
+          <hr class="line-hr">
           <div class="features-header">
             <h2>Nega aynan Akademnashr?</h2>
           </div>
@@ -83,10 +95,10 @@
         <section class="sale">
           <div class="sale-box">
             <div class="sale-text">
-              <h2>Bolalar kitoblari uchun <br> ajoyib aksiya!</h2>  
+              <h2>Bolalar kitoblari uchun ajoyib aksiya!</h2>  
               <p>Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
               <p>Aksiyadagi eng katta to’plamda <strong>50 ta kitob</strong>ni <strong>350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>   
-              <a href="#">Buyurtma berish</a><br>
+              <a class="site-header-link"  href="#">Buyurtma berish</a><br>
             </div>
   
              <img class="sale-img " src="img/sale-img.png" alt="sale-img" width="440" height="440" srcset="img/sale-img.png 1x, img/sale-img@2x .png 2x">
@@ -103,12 +115,30 @@
     <footer>
        <!-- bitta uzun chiziq va linklar -->
       <div class="footer-list">
-        <a href="index.html"><img class="footer-list-logo" src="img/logo.svg" alt="logo" width="227" height="59.18" ></a>
-        <ul>
-          <li><a href="https://t.me/Akademnashr"><img class="footer-list-icon" src="img/icon-telegram.jpg" alt="telegram" width="24" height="24"></a></li>
-          <li><a href="https://www.facebook.com/Akademnashr/"><img class="footer-list-icon" src="img/icon-facebook.jpg" alt="facebook" width="24" height="24"></a></li>
-          <li><a href="https://www.instagram.com/Akademnashr/"><img class="footer-list-icon" src="img/icon-instagram.jpg" alt="instagram" width="24" height="24"></a></li>
-        </ul>
+        <a href="index.html">
+          <img class="header-img" src="img/logo.svg" alt="logo" >
+        </a>
+
+        <div class="footer-icon">
+          <ul >
+            <li>
+              <a href="https://t.me/Akademnashr">
+                <img class="footer-list-icon" src="img/icon-telegram.jpg" alt="telegram" >
+              </a>
+            </li>
+              <li>
+                <a href="https://www.facebook.com/Akademnashr/">
+                  <img class="footer-list-icon" src="img/icon-facebook.jpg" alt="facebook" >
+                </a>
+              </li>
+            <li>
+              <a href="https://www.instagram.com/Akademnashr/">
+                <img class="footer-list-icon" src="img/icon-instagram.jpg" alt="instagram" >
+              </a>
+            </li>
+          </ul>
+        </div>
+        
       </div>
 
       <hr>
