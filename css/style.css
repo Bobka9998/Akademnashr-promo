@@ -10,9 +10,12 @@ body{
   height: 2726px;
   background: #FFFFFF;
   margin: 0 auto;
-  
+   
 }
 header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-top: 5px #FF7500  solid;
   width: 1440px;
 }
@@ -20,15 +23,14 @@ header{
   width: 227; 
   height: 59.18;
 }
-.line-hr{
-  width: 92px;
-  height: 3px;
-  background-color: #FF7500;
-}
 .header-list{
-  width: 610px;
+ display: flex;
+ align-items: center;
 }
+
 .header-list-nav-ul{
+  display: flex;
+  align-items: center;
   list-style: none;
   color: #252420;
 }
@@ -38,12 +40,9 @@ header{
   letter-spacing: 1px;
   text-decoration: none;
   color: #252420;
-
+  
 }
 .site-header-link{
-  width: 155px;
-  height: 39px;
-  font-weight: bold;
   font-size: 13px;
   line-height: 15px;
   letter-spacing: 0.5px;
@@ -55,6 +54,9 @@ header{
   width: 1440px; 
 }
 .rectangle1{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly ;
   width: 1440px;
   background-color: #252420;
 }
@@ -68,6 +70,7 @@ header{
   letter-spacing: 0.5px;
   color: #FFFFFF;
 }
+
 .rectangle-text p{
   font-weight: normal;
   color: #FFFFFF;
@@ -81,6 +84,11 @@ header{
   width: 1440px;
   background-color: #FFFFFF;
 }
+.line-hr{
+  width: 92px;
+  height: 3px;
+  background-color: #FF7500;
+}
 .features-header{
   width: 435px;
 }
@@ -90,8 +98,9 @@ header{
   line-height: 120%;
   color: #000000;
 }
-.features-list{
-  width: 1100px;
+.features-item{
+  display: flex;
+  justify-content: space-evenly;
 }
 .features-list li{
   width: 340px;
@@ -113,6 +122,9 @@ header{
   width: 1100px;
 }
 .sale-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   width: 1100px;
   background-color: #252420;
 }
@@ -149,24 +161,30 @@ footer{
   background-color:  #f8f8f8;
 }
 .footer-list{
-  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
 }
-.footer-icon ul{
-list-style: none;
+.footer-icon-list{
+  display: flex;
+  list-style: none;
 }
-.footer-icon img{
+.icon-img{
   width: 24px;
   height: 24px;
 }
-.footer-list2{
-  width: 1100px;
+.footer-bottom{
+  display: flex;
+  justify-content: space-evenly;
+  width: 1440px;
   height: 229px;
 }
-.footer-list2 ul{
+.footer-bottom-list{
   width: 224px;
   list-style: none;
 }
-.footer-list2 li a{
+.footer-bottom li a{
   font-weight: normal;
   line-height: 19px;
   text-decoration: none;
