@@ -1,3 +1,6 @@
+*{
+  padding: 0;
+}
 body{
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
@@ -16,6 +19,8 @@ body{
   margin: 0 auto; 
 }
 header{
+  padding-top: 16px;
+  padding-bottom: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,9 +63,11 @@ header{
   opacity: 0.6;
 }
 .site-header-link{
+  padding: 12px 24px;
   font-size: 13px;
   line-height: 15px;
   letter-spacing: 0.5px;
+  font-weight: bold;
   background-color: #FF7500;
   text-decoration: none;
   color: #FFFFFF; 
@@ -83,6 +90,8 @@ header{
   background-color: #252420;
 }
 .rectangle-text{
+  padding-top: 80px;
+  padding-bottom: 80px;
   width: 387px;  
 }
 .rectangle-text h2{
