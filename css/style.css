@@ -5,12 +5,15 @@ body{
   font-style: normal;
   line-height: 24px;
 }
+*:focus{
+  outline: 2px dotted #FF7500;
+  outline-offset: 3px;
+}
 .promo-site{
   width: 1440px;
   height: 2726px;
   background: #FFFFFF;
-  margin: 0 auto;
-   
+  margin: 0 auto; 
 }
 header{
   display: flex;
